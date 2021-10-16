@@ -151,11 +151,11 @@ tcpconnect('172.16.111.142',80)
 
 	攻击者主机运行`Tcpconnect.py`脚本
 	
-	![](C:\Users\candy\Desktop\2021-ns-public-cloud-and-mist\chap0x05\img\attack-tcpconnect-close.PNG)
+	![](img/attack-tcpconnect-close.PNG)
 	
 	靶机Wireshark抓包
 	
-	![](C:\Users\candy\Desktop\2021-ns-public-cloud-and-mist\chap0x05\img\vic-tcpconnect-wireshark-close.PNG)
+	![](img/vic-tcpconnect-wireshark-close.PNG)
 	
 	- TCP三次握手机制，攻击者主机向靶机发送连接请求后，靶机相应端口处于关闭状态，靶机将会向攻击者返回[RST,ACK]包，抓包结果与预期结果一致。
 
