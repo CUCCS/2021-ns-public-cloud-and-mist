@@ -396,7 +396,7 @@ fin_scan('172.16.111.14',80)
 
   靶机Wireshark抓包
 
-  ![]img/vic-tcpf-wireshark-filter.PNG)
+  ![](img/vic-tcpf-wireshark-filter.PNG)
 
 - 攻击者主机`nmap`复刻
 
